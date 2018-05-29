@@ -1,7 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Russo+One');
 @import url('https://fonts.googleapis.com/css?family=Marmelad');
-
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
 *{
 	box-sizing: border-box;
 }
@@ -199,9 +200,16 @@ header {
 
 
 .description {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-shadow: 0.5px 0.5px 0 orange,
+               0.5px -0.5px 0 orange,
+               -0.5px 0.5px 0 orange,
+              -0.5px -0.5px 0 orange;
+  transition: all 1s;
+  color: #FFD700;
   width: 50%;
   padding: 2em 4em;
-  font-size: 1.5em;
+  font-size: 1.8em;
   position: relative;
   z-index: 1000;
   opacity: 0;
